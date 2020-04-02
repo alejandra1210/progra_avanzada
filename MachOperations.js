@@ -1,37 +1,12 @@
 //Modulo
 
-module.exports = {
-    //esto es un modulo que va a exportar funciones
-    //  forma de array de funciones
-    sumar: function(a, b) {
-
-        return a + b;
-
-    },
-
-    restar: function(a, b) {
-
-        return a - b;
-
-    },
-
-    multiplicar: function(a, b) {
-
-        return a * b;
-
-    },
-
-    dividir: function(a, b) {
-
-        return a / b;
-
-    }
-}
-
+const sumar = (a,b)=> a + b;
+const restar =  (a, b) => a-b;
+const  multiplicar = (a, b) => a-b;
+const dividir = (a, b)=> a/b;
 
 module.exports = {
     sumar,
-    restar,
-    multiplicar,
-    dividir
+    
+   dividir
 }

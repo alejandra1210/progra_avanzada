@@ -1,18 +1,17 @@
-function greeting() {
-    console.log("Hola cuarentenan");
-}
+//1-4-2020 Utilizacion de modulos(Require)
+//const operacionesaritmeticas = require('./MachOperations');
+//const { sumar,restar,dividir,multiplicar} = require('./MachOperations');
 
-function suma() {
-    var resultado = 60 + 60;
+//usar la funciones de modulo
 
-    return resultado;
-}
+//console.log(operacionesaritmeticas.sumar(4, 8));
+//console.log(dividir(12,13));
 
-// invocamos la funcion suma para ver el resulado
-function imprimaResultado() {
+//saludos
+const saludar = require('./greetings');
 
-    console.log("Resultado:" + suma());
-}
+const hi = require('./greetings/Hello');
 
-greeting();
-imprimaResultado();
+Console.log(saludo("Maria"));
+
+Console.log(hi.diHola("Aleja"))
