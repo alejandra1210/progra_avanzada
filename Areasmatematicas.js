@@ -1,25 +1,15 @@
 //Modulo
 
-module.exports = {
 
-    areaTriangulo: function(a, b) {
+    const areaTriangulo =(a,b) => (a+b)/2;
 
-        return (a + b) / 2;
+    const areaCuadrado = (a,b)=> a*b;
+    
+     const areaCirculo = (a) => a*a 
 
-    },
 
-    areaCuadrado: function(a, b) {
 
-        return a * b;
 
-    },
-
-    areaCirculo: function(a) {
-
-        return 3, 14 * (a * a);
-
-    }
-}
 
 module.exports = {
     areaTriangulo,
