@@ -13,6 +13,6 @@
   "author": "Alejabd",
   "license": "ISC",
   "dependencies": {
-    "cowsay": "^1.4.0"
+    "cowsay": "^1.5.0"
   }
 }
